@@ -207,12 +207,6 @@ export default function Layout({ children }) {
           <Typography variant="caption" sx={{ fontWeight: 600, color: '#374151' }}>
             Copyright &copy; 2025 Sterna Security Devices Private Limited. All rights reserved.
           </Typography>
-          <Typography
-            variant="caption"
-            sx={{ color: '#20b5f7', fontWeight: 600 }}
-          >
-            VERSION : 2.0.2
-          </Typography>
         </Box>
       </Box>
     </Box>

@@ -153,7 +153,7 @@ export default function LoginPage() {
             </Alert>
           )}
           {infoMessage && (
-            <Alert severity="info" sx={{ mb: 2 }}>
+            <Alert severity="info" sx={{ mb: 2, whiteSpace: 'pre-line' }}>
               {infoMessage}
             </Alert>
           )}
@@ -224,7 +224,7 @@ export default function LoginPage() {
                 sx={{ fontSize: 12.5, color: '#20b5f7', fontWeight: 500 }}
                 onClick={() =>
                   setInfoMessage(
-                    'Demo credentials: leo@sterna.com / Password@123'
+                    'Email: leo@sterna.com\nPassword: Password@123'
                   )
                 }
               >
@@ -275,18 +275,6 @@ export default function LoginPage() {
               Login using OTP
             </Button>
           </Box>
-
-          <Typography
-            variant="caption"
-            sx={{
-              display: 'block',
-              textAlign: 'center',
-              color: '#9ca3af',
-              mt: 2.5,
-            }}
-          >
-            Demo: <strong>leo@sterna.com</strong> / <strong>Password@123</strong>
-          </Typography>
         </CardContent>
       </Card>
     </Box>

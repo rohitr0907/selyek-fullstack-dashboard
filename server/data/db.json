@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leo",
+      "email": "leo@sterna.com",
+      "password": "Password@123"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "R S Puram",
+      "city": "Coimbatore",
+      "locks": []
+    }
+  ]
+}
